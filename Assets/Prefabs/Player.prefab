@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4225144910013657030}
   - component: {fileID: 4438670420133825275}
   - component: {fileID: 5532348383008888843}
-  - component: {fileID: 5302948764591978007}
+  - component: {fileID: 2850319366086009085}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -44,7 +44,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -93,7 +93,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47852121666813239}
   m_Enabled: 1
---- !u!114 &5302948764591978007
+--- !u!114 &2850319366086009085
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveSpeed","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"rotSpeed","value":{"$content":210.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"cameraRotationX","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
