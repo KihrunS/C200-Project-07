@@ -17,7 +17,7 @@ Importing the room was very difficult, as I had to go through every material and
 - Art environment
 - Music, button press sound, and voice narration
 - Animation for pressing the button, made by myself
-- End screen and tooltip for interacting
+- End screen, tooltip for interacting, player has a reticle
 - 3D level is the room
 
 ## Assets used
